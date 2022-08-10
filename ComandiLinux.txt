@@ -1,0 +1,42 @@
+		*La maggior parte dei comandi linux si possono applicare anche a percorsi*
+man	//per visualizzare il manuale dei comandi
+cd	//per muoversi nelle directory
+ls	//per vedere file e directory nella directory corrente
+mkdir	//per creare directory
+rmdir	//per eliminare directory
+touch	//per creare file
+rm	//per rimuovere file
+echo	//per stampare a terminale
+pwd	//per visualizzare il percorso nella dyrectory corrente
+mv	//per spostare(nomefile + percorso) o rinominare file
+cp	//per copiare il contenuto di un file in un altro file
+cat	//per visualizzare il contenuto di un file
+tr	//per sostituire un carattere in un file con un altro carattere
+	//sintax: tr [charDaSostituire] [charSostituto] < [nomefile]
+grep	//per cercare le parole/caratteri in un file, restituendo le righe che li contengono
+	//sintax: grep [parola/carattere] [nomefile]
+wc	//per visualizzare il numero di righe, parole e caratteri in un file
+locate	//per visualizzare il percorso di un determinato file
+clear	//per pulire il terminale
+find	//per cercare directory/file
+sleep	//per far dormire il pc in secondi
+chmod	//per cambiare permessi a file o directory
+sed	//per trovare, sostituire, inserire ed eliminare parole, caratteri e righe da file
+	//sintax: sed 's/[parolaDaSostituire]/[parolaSostituta]/' [nomefile]
+	//NB: s è un comando e sta per sostitute (ovviamente esistono altri comandi)
+
+./	//indica il percorso della cartella corrente
+..	//indica la cartella precedente
+<       //operatore applica
+*       //operatore pre/post stringa, per generalizza i contenuti es: ls es* / ls *.cpp / ls a*c
+?       //operatore per indicare qualsiasi carattere (unico) pre/post es: ls as?/ (visualizza
+        //qualsiasi cartella che inizia con as + un qualsiasi carattere)
+!       //operatore per risalire all'ulrimo comando con carattere iniziale es: !c
+;       //operatore per dividere i comandi in un unica riga
+&&      //operatore logico divisorio, se il primo comando va a buon fine, anche il secondo parte ecc..
+||      //operatore logico divisorio, se il primo comando va a buon fine, il secondo non parte ecc..
+|       //operatore per legare più comandi, o meglio a legare l'output del comando di sinistra con
+        //l'input del comando di destra che a sua volta genererà un altro output e cosi via (scambio di info)
+
+nano	//editor di testo
+vim	//editor di testo
